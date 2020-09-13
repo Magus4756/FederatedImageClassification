@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7928ec6a-f91c-4939-9e51-fcfc3a4e925c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/FederatedImageClassifier3.0.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/Fang.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/ResNet-101.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/ResNet-152.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/ResNet-50.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/cnn2layer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/mlp.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/mnist2nn.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/single_layer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/vgg11.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/vgg13.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/vgg16.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/vgg19.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Fang.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/backbone/backbone.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/backbone/cnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/backbone/resnet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/classifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/imageclassifier.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/naive_fed_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/utils/weight_init.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/participant/client/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/participant/client/gaussian.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/participant/client/label_flip.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/participant/client/normal.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/participant/server.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/participant/util/label_map.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solver/aggregator/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solver/aggregator/bulyan.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solver/aggregator/fang.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solver/aggregator/fed_avg.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solver/aggregator/krum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solver/aggregator/rand_weight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solver/aggregator/trimmed_mean.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solver/data_loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/solver/optimizer_maker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/collect_env.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/config_loading.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/logging.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IlluminatedCloudWorkspaceSettings">
+    <option name="projectWorkspaceSettings">
+      <ProjectWorkspaceSettings>
+        <option name="anonymousApexSettings">
+          <AnonymousApexSettings>
+            <option name="savedDocuments">
+              <list>
+                <AnonymousApexSavedDocument>
+                  <option name="name" value="Anonymous Apex 1" />
+                </AnonymousApexSavedDocument>
+              </list>
+            </option>
+          </AnonymousApexSettings>
+        </option>
+        <option name="soqlQuerySettings">
+          <SoqlQuerySettings>
+            <option name="savedDocuments">
+              <list>
+                <SoqlQuerySavedDocument>
+                  <option name="name" value="SOQL Query 1" />
+                </SoqlQuerySavedDocument>
+              </list>
+            </option>
+          </SoqlQuerySettings>
+        </option>
+      </ProjectWorkspaceSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1e1tnQPNYVGjoBgi3Oz8c6Oqm84" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.train">
+    <configuration name="logging" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FederatedImageClassifier3.0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/logging.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="FederatedImageClassifier3.0" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python.logging" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7928ec6a-f91c-4939-9e51-fcfc3a4e925c" name="Default Changelist" comment="" />
+      <created>1593501092196</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593501092196</updated>
+      <workItem from="1593501094546" duration="761000" />
+      <workItem from="1593502174624" duration="293000" />
+      <workItem from="1593502488752" duration="3565000" />
+      <workItem from="1593569240820" duration="1889000" />
+      <workItem from="1593615909376" duration="710000" />
+      <workItem from="1594033712962" duration="8302000" />
+      <workItem from="1594101768755" duration="329000" />
+      <workItem from="1594111411694" duration="287000" />
+      <workItem from="1594349428535" duration="40000" />
+      <workItem from="1594349493203" duration="5432000" />
+      <workItem from="1594628125845" duration="2000" />
+      <workItem from="1594956304463" duration="16130000" />
+      <workItem from="1595818069014" duration="3000" />
+      <workItem from="1598409868305" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="190" key="#Deployment" timestamp="1593502460478">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="440" y="190" key="#Deployment/0.0.1680.1050@0.0.1680.1050" timestamp="1593502460478" />
+    <state x="435" y="198" key="#Illuminated_Cloud" timestamp="1598409882843">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="435" y="198" key="#Illuminated_Cloud/0.0.1680.1050@0.0.1680.1050" timestamp="1598409882843" />
+    <state x="465" y="204" key="#Options" timestamp="1593502527683">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="465" y="204" key="#Options/0.0.1680.1050@0.0.1680.1050" timestamp="1593502527683" />
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594351671721">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1594351671721" />
+    <state x="628" y="307" key="FileChooserDialogImpl" timestamp="1594370933578">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="628" y="307" key="FileChooserDialogImpl/0.0.1680.1050@0.0.1680.1050" timestamp="1594370933578" />
+    <state width="1636" height="295" key="GridCell.Tab.0.bottom" timestamp="1594435295703">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="295" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594435295703" />
+    <state width="1636" height="295" key="GridCell.Tab.0.center" timestamp="1594435295702">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="295" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594435295702" />
+    <state width="1636" height="295" key="GridCell.Tab.0.left" timestamp="1594435295701">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="295" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594435295701" />
+    <state width="1636" height="295" key="GridCell.Tab.0.right" timestamp="1594435295703">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="295" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594435295703" />
+    <state width="1636" height="364" key="GridCell.Tab.1.bottom" timestamp="1594101663804">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1594101663804" />
+    <state width="1636" height="364" key="GridCell.Tab.1.center" timestamp="1594101663803">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1594101663803" />
+    <state width="1636" height="364" key="GridCell.Tab.1.left" timestamp="1594101663802">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1594101663802" />
+    <state width="1636" height="364" key="GridCell.Tab.1.right" timestamp="1594101663803">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1636" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1594101663803" />
+    <state x="747" y="262" key="ftp.server.browser" timestamp="1593502453089">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="747" y="262" key="ftp.server.browser/0.0.1680.1050@0.0.1680.1050" timestamp="1593502453089" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/utils/logging.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/participant/client/label_flip.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/FederatedImageClassifier3_0$logging.coverage" NAME="logging Coverage Results" MODIFIED="1593503195664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/utils" />
+    <SUITE FILE_PATH="coverage/FederatedImageClassifier3_0$train.coverage" NAME="train Coverage Results" MODIFIED="1594371872393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
